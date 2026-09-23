@@ -1,17 +1,36 @@
-# javascript-course-practices-2024 
+## JavaScript Web Projects
 
-This repository contains general exercises completed during a JavaScript course in 2024.  
-The goal is to practice key concepts of the language and strengthen programming skills.
+A collection of JavaScript web development exercises covering DOM manipulation, Firebase integration, and jQuery-based UI interactions and API consumption, developed as part of university coursework.
 
-## 📌 Contents
-- **Exercise 1:** Variables and basic operators  
-- **Exercise 3:** Functions and variable scope  
-- **Exercise 5:** DOM manipulation  
-- **Exercise 6:** Events and callbacks  
+## Overview
 
-## 🚀 How to use
-Clone this repository and open the files in your preferred editor (VS Code recommended).  
-You can run the examples in the browser or with Node.js to see the results.
+This repository contains two academic projects that demonstrate front-end JavaScript fundamentals: building and persisting data with the DOM and Firebase, and creating interactive UI behaviors and API integrations using jQuery.
 
-```bash
-git clone https://github.com/yourusername/javascript-course-practices-2024
+## Note on Code Attribution
+
+These projects were completed as structured coursework exercises, building on templates and lab instructions provided by the course. My contribution consists of implementing the required functionality, integrating external services (Firebase, Giphy API), testing the resulting behavior, and documenting the code. This repository is shared as a record of applied learning in front-end web development, not as original tooling or production software.
+
+## Technologies
+
+JavaScript (DOM API, jQuery)
+
+Firebase Firestore (NoSQL database)
+
+SweetAlert2 (UI alerts)
+
+RESTful APIs (Giphy API, AJAX)
+
+## Contents
+
+## Vehicle-Inventory-app : 
+
+## A vehicle inventory management application that:
+
+Implements dynamic inventory rendering and full CRUD operations (create, read, update, delete) using vanilla JavaScript and DOM manipulation (lab3-dom-crud.js).
+Migrates the application from local in-memory state to a persistent Firebase Firestore backend, using real-time listeners (onSnapshot) and SweetAlert2 for user feedback and delete-confirmation safeguards (lab4-firebase-firestore.js).
+interactive-ui-jquery/
+
+ ## A set of interactive front-end labs that:
+
+Implement interactive UI behaviors (show/hide, slide, animate) and chained jQuery animations with callback-based timing control (lab5-animations.js).
+Build a GIF search application consuming the Giphy REST API via jQuery AJAX, handling asynchronous requests and JSON response parsing (lab6-giphy-api.js).
